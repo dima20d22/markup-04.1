@@ -74,6 +74,10 @@ section {
     align-items: center;
 }
 
+.menu-link {
+    color: #212121;
+}
+
 .menu-item:not(:last-child) {
     margin-right: 50px;
 }
