@@ -134,13 +134,13 @@ section {
     Fill: #2196F3
 }
 
-.contact .contact-icon::after .menu-link {
+/* .contact .contact-icon::after .menu-link {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #212121;
-}
+} */
 
 .menu-link:hover,
 .menu-link:focus {
@@ -438,25 +438,14 @@ section {
 
 .clients-menu {
     display: flex;
-    flex-wrap: wrap;
 }
 
 .clients-link {
+    display: block;
+    padding: 16px 32px;
     border: 1px solid #AFB1B8;
     border-radius: 5px;
-    width: calc((100%-180px)/6);
-
 }
-
-.clients-list {
-    width: 170px;
-}
-
-.clients-list:not(:last-child) {
-    margin-right: 30px;
-}
-
-
 
 .clients-link:hover svg,
 .clients-link:focus svg {
@@ -465,12 +454,18 @@ section {
 
 .clients-link:hover,
 .clients-link:focus {
+    outline: none;
     border: 1px solid #2196F3;
 }
 
 .clients-icon {
-    padding: 16px 32px;
+    width: 106px;
+    height: 60px;
     fill: #AFB1B8;
+}
+
+.clients-list:not(:last-child) {
+    margin-right: 30px;
 }
 
 /* ------clients-end----- */
@@ -550,7 +545,6 @@ address {
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-
     color: #FFFFFF;
 }
 
