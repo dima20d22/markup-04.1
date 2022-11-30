@@ -151,6 +151,15 @@ section {
     color: #2196F3;
 }
 
+.menu-link:hover::after {
+    display: flex;
+    content: "";
+    height: 4px;
+    width: 100%;
+    background-color: #2196F3;
+    flex-shrink: 0;
+}
+
 .link-header {
     margin-right: 50px;
 }
