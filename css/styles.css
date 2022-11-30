@@ -1,7 +1,9 @@
 :root {
     --main-font: 'Roboto', sans-serif;
     --blacklish: color: #212121;
-    --darkish: color #757575 --bluelish: color #2196F3;
+    --darkish: color: #757575;
+    --bluelish: color: #2196F3;
+
 
 
 }
@@ -111,7 +113,6 @@ section {
     font-size: 26px;
     line-height: 1.20;
     letter-spacing: 0.03em;
-
     color: #2196F3;
 }
 
