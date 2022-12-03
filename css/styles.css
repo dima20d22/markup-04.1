@@ -624,3 +624,34 @@ address {
 }
 
 /* ----END FOOTER---- */
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.modal {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 528px;
+    height: 581px;
+    background-color: #FFFFFF;
+    transform: translate(-50%, -50%);
+}
+
+
+.close-btn {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0;
+}
